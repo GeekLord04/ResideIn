@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "715479678186",
+    "project_id": "residein-e39d5",
+    "storage_bucket": "residein-e39d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715479678186:android:d26b2fc7ba527db0582b93",
+        "android_client_info": {
+          "package_name": "com.geekym.residein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715479678186-s12gdov6v8bq9lcp96dqiuh6orird1gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geekym.residein",
+            "certificate_hash": "2ec878b1f33aa7000f2ed786895f90a3353c159c"
+          }
+        },
+        {
+          "client_id": "715479678186-76mmmqg2ckhbgper908dvno6ije923uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5sBTKg_GEIlZMq5xb0KnDcFwmHVj6seU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715479678186-76mmmqg2ckhbgper908dvno6ije923uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

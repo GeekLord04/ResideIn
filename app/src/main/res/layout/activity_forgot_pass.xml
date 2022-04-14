@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4FAFF"
+    tools:context=".ForgotPass">
+
+    <EditText
+        android:id="@+id/emaillogin2"
+        android:layout_width="323dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/edittext_layout"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="6dp"
+        android:elevation="30dp"
+        android:ems="40"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColor="#1E1E1E"
+        android:textColorHint="#7C7C7C"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="237dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:gravity="left"
+        android:text="We've got your back"
+        android:textColor="#434343"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="128dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="Don't"
+        android:textColor="#434343"
+        android:textSize="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="147dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="worry!"
+        android:textColor="#2C93F3"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="222dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/btn_layout"
+        android:text="Reset password"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/emaillogin2"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="@+id/emaillogin2"
+        app:layout_constraintTop_toBottomOf="@+id/emaillogin2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
