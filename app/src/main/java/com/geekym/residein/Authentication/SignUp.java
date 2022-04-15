@@ -1,4 +1,4 @@
-package com.geekym.residein;
+package com.geekym.residein.Authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import com.geekym.residein.R;
 
 
 public class SignUp extends AppCompatActivity {

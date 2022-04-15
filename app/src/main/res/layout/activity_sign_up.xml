@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F4FAFF"
-    tools:context=".SignUp">
+    tools:context=".Authentication.SignUp">
 
     <TextView
         android:id="@+id/textView4"
@@ -102,6 +102,8 @@
         android:background="@drawable/edittext_layout"
         android:inputType="textPassword"
         android:drawableLeft="@drawable/password"
+        android:drawableRight="@drawable/visibility_off"
+        android:paddingRight="10dp"
         android:hint="Password"
         app:layout_constraintEnd_toEndOf="@+id/emailsignup"
         app:layout_constraintHorizontal_bias="0.504"
@@ -116,6 +118,8 @@
         android:ems="10"
         android:inputType="textPassword"
         android:drawableLeft="@drawable/password"
+        android:drawableRight="@drawable/visibility_off"
+        android:paddingRight="10dp"
         android:hint="Confirm Password"
         android:elevation="20dp"
         android:paddingLeft="6dp"

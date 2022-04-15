@@ -1,4 +1,4 @@
-package com.geekym.residein;
+package com.geekym.residein.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,9 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
+
+import com.geekym.residein.Authentication.SignIn;
+import com.geekym.residein.R;
 
 public class SplashScreen extends AppCompatActivity {
 

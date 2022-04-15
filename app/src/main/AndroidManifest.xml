@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ResideIn">
         <activity
-            android:name=".ForgotPass"
+            android:name=".Authentication.ForgotPass"
             android:exported="false" />
         <activity
-            android:name=".SignIn"
+            android:name=".Authentication.SignIn"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".Authentication.SignUp"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".Activities.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

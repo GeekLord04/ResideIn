@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F4FAFF"
-    tools:context=".SignIn">
+    tools:context=".Authentication.SignIn">
 
     <ImageView
         android:id="@+id/imageView"
@@ -75,6 +75,8 @@
         android:hint=" Password"
         android:drawableLeft="@drawable/password"
         android:elevation="30dp"
+        android:drawableRight="@drawable/visibility_off"
+        android:paddingRight="10dp"
         android:inputType="textPassword"
         android:paddingLeft="10dp"
         android:drawablePadding="4dp"
@@ -86,7 +88,7 @@
         app:layout_constraintTop_toBottomOf="@+id/emaillogin" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/forgot_pass"
         android:layout_width="155dp"
         android:layout_height="37dp"
         android:layout_marginTop="12dp"
@@ -101,7 +103,7 @@
         app:layout_constraintTop_toBottomOf="@+id/passwordlogin" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
+        android:id="@+id/signin"
         android:layout_width="222dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -109,11 +111,12 @@
         android:background="@drawable/btn_layout"
         android:fontFamily="@font/roboto"
         android:text="Sign in"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/forgot_pass"
+        app:layout_constraintTop_toBottomOf="@+id/forgot_pass"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -125,8 +128,8 @@
         android:text="Don't have an account?"
         android:textColor="#272727"
         android:textSize="14dp"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintStart_toStartOf="@+id/signin"
+        app:layout_constraintTop_toBottomOf="@+id/signin" />
 
     <TextView
         android:id="@+id/signup_text"
@@ -137,9 +140,9 @@
         android:text="Sign up"
         android:textColor="@color/black"
         android:textSize="14dp"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/signin"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/signin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

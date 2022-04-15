@@ -1,8 +1,10 @@
-package com.geekym.residein;
+package com.geekym.residein.Authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.geekym.residein.R;
 
 public class ForgotPass extends AppCompatActivity {
 
